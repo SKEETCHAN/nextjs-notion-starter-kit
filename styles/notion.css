@@ -451,3 +451,8 @@
   flex-direction: column;
   text-align: left; /* 确保文本左对齐 */
 }
+
+/* styles.module.css */
+.footer {
+  display: none !important;
+}
