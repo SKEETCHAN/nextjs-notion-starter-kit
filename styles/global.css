@@ -60,7 +60,3 @@ body {
 ::-webkit-scrollbar-track {           
     background-color: var(--bg-color);
 }
-/* styles.css */
-.notion-title, .notion-page-icon-hero, .notion-page-icon, .notion-page-title {
-  display: none !important;
-}
