@@ -426,12 +426,6 @@
 /* 隐藏页面中间的大标题和emoji */
 .notion-page .notion-title, 
 .notion-page .notion-page-icon-hero, 
-.notion-page .notion-page-icon, 
 .notion-page .notion-page-title {
-  display: none !important;
-}
-
-/* 隐藏页脚 */
-.notion-footer {
   display: none !important;
 }
