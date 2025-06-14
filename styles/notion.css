@@ -424,25 +424,21 @@
   display: none !important;
 }
 /* 隐藏页面中间的大标题和emoji */
-.notion-page .notion-title, 
 .notion-page .notion-page-title {
   display: none !important;
 }
 
-/* 调整页面内容的外边距和内边距 */
-.notion-page {
-  margin-top: -50px; /* 调整为合适的值 */
-  padding-top: 0; /* 调整为合适的值 */
-}
-
-/* 调整导航栏的高度 */
-.notion-header {
-  height: 50px; /* 调整为合适的值 */
-}
-
 /* 调整页面内容的布局 */
-.notion-page {
+.notion-page-content {
+  margin-top: 20px; /* 根据需要调整 */
+}
+
+/* 确保属性列表垂直排列 */
+.properties-list {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+}
+
+.property {
+  margin-bottom: 10px; /* 为每个属性添加底部外边距，以便分隔它们 */
 }
