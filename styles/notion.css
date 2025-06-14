@@ -424,13 +424,15 @@
   display: none !important;
 }
 /* 隐藏页面中间的大标题和emoji */
-.notion-page .notion-page-title {
+.notion-page-title {
   display: none !important;
 }
 
 /* 调整页面内容的布局 */
-.notion-page-content {
-  margin-top: 20px; /* 根据需要调整 */
+.notion-page {
+  margin-top: 0; /* 重置为0或根据实际情况调整 */
+  padding-top: 20px; /* 添加一些内边距来填充空隙 */
+  overflow: visible; /* 确保内容不会隐藏 */
 }
 
 /* 确保属性列表垂直排列 */
@@ -441,4 +443,9 @@
 
 .property {
   margin-bottom: 10px; /* 为每个属性添加底部外边距，以便分隔它们 */
+}
+
+/* 隐藏GitHub角落的蓝色猫咪 */
+.github-corner .octo-arm {
+  display: none !important;
 }
