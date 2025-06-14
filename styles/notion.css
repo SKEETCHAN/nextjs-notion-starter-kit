@@ -420,11 +420,7 @@
 }
 
 /* styles.css */
-.notion-title {
-  display: none !important;
-}
-
-.notion-page-icon-hero {
+.notion-title, .notion-page-icon-hero, .notion-page-icon, .notion-page-title {
   display: none !important;
 }
 
