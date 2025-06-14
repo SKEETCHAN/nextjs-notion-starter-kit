@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: e0c237527f7c4b9cabbc2d83e36bd4b0,
 
   // basic site info (required)
   name: 'LYCHEE BAR',
@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'LYCHEE BAR',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'We excel in LGBTQ+ groups marriage and immigration consultation , offering essential support and solutions to clients, and delivering immigration advice and guidance tailored to the European context.',
 
   // social usernames (optional)
   // twitter: '#',
