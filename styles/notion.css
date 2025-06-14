@@ -418,3 +418,13 @@
 .notion-equation.notion-equation-block {
   align-items: center;
 }
+
+/* styles.css */
+.notion-title {
+  display: none !important;
+}
+
+.notion-page-icon-hero {
+  display: none !important;
+}
+
