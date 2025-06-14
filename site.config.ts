@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'e0c237527f7c4b9cabbc2d83e36bd4b0',
+  rootNotionSpaceId: 'e0c23752-7f7c-4b9c-abbc-2d83e36bd4b0',
 
   // basic site info (required)
   name: 'LYCHEE BAR',
