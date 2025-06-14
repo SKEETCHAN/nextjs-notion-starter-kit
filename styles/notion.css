@@ -423,10 +423,6 @@
 .notion-title, .notion-page-icon-hero, .notion-page-icon, .notion-page-title {
   display: none !important;
 }
-/* 隐藏页面中间的大标题和emoji */
-.notion-page-title {
-  display: none !important;
-}
 
 /* 调整页面内容的布局 */
 .notion-page {
@@ -448,4 +444,10 @@
 /* 隐藏GitHub角落的蓝色猫咪 */
 .github-corner .octo-arm {
   display: none !important;
+}
+/* 确保属性列表垂直排列并左对齐 */
+.properties-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* 确保文本左对齐 */
 }
